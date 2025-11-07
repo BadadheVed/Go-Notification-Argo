@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: blog-app
-        image: ved104/blog-go-app:d1e8a1539d7f4d0680374e346a55f4fb8192da85
+        image: ved104/blog-go-app:1adac2d99fc183c188fad61b212e825c7d2a3877
         ports:
         - containerPort: 8080
         env:
